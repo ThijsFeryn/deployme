@@ -8,7 +8,7 @@ $app->get('/hello/{name}', function($name) use($app) {
 });
 
 $app->get('/', function()  {
-    return "Hello from release ".basename(__DIR__).PHP_EOL;
+    return "Hello from release ".basename(dirname(__DIR__)).PHP_EOL;
 });
 
 $app->run();
