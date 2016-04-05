@@ -11,8 +11,8 @@ $app->get('/', function()  {
     return "Hello from release ".basename(dirname(__DIR__)).PHP_EOL;
 });
 
-$app->get('/yo/', function(){
-    return 'Hello yo';
+$app->get('/tim/', function(){
+    return 'Den Tim is hier ook';
 });
 
 $app->run();
