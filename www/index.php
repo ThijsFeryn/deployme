@@ -12,7 +12,7 @@ $app->get('/', function()  {
 });
 
 $app->get('/tim/', function(){
-    return 'Den Tim is hier ook';
+    return 'Den Tim is hier ook. Niet normaal!';
 });
 
 $app->run();
